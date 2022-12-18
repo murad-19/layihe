@@ -1,0 +1,314 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+a {
+  color: rgb(222, 244, 125);
+}
+
+.body {
+  background-image: linear-gradient(#dbb7b7, #7d77bb, #c4c4ae);
+}
+
+.btn-bg {
+  background-color: darkorange !important;
+  color: black;
+}
+.btn-bg:hover {
+  background-color: darkgreen !important;
+  color: darkred;
+}
+
+.body-img {
+  background-image: url(photo/body.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head {
+  width: 100%;
+  height: 10vh;
+  background-color: blue;
+}
+
+.hover-text:hover {
+  text-decoration: underline !important;
+}
+
+.bg-text:hover {
+  color: white !important;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.mt {
+  margin-top: 8vh;
+}
+
+.gap {
+  display: flex;
+  gap: 7vh;
+}
+
+.ml {
+  margin-left: 5vh;
+}
+
+.height {
+  height: 30vh;
+}
+
+.box1 {
+  transition: transform 0.5s;
+}
+
+.box1:hover {
+  transform: scale(105%);
+  cursor: pointer;
+}
+
+.img {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-card {
+  opacity: 0.8;
+}
+
+.bg-card:hover {
+  background-color: aqua;
+  opacity: 1;
+}
+
+.plane {
+  width: 50%;
+  height: 10vh;
+  position: absolute;
+  left: 65vh;
+}
+.plane .plane-icon {
+  font-size: 2rem;
+  position: absolute;
+  color: white;
+  top: 7px;
+  left: 0%;
+  -webkit-animation: plane 10s linear infinite;
+          animation: plane 10s linear infinite;
+}
+
+@-webkit-keyframes plane {
+  0% {
+    left: 15%;
+    opacity: 0.2;
+  }
+  100% {
+    left: 110%;
+    opacity: 0.3;
+  }
+}
+
+@keyframes plane {
+  0% {
+    left: 15%;
+    opacity: 0.2;
+  }
+  100% {
+    left: 110%;
+    opacity: 0.3;
+  }
+}
+.foother {
+  width: 100%;
+  height: 80vh;
+  background-image: url(photo/footherbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.foother .travel {
+  margin-top: 10vh;
+}
+.foother .travel ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20vh;
+  padding-left: 25vh;
+  padding-top: 10vh;
+  color: rgb(74, 236, 4);
+  cursor: pointer;
+}
+.foother .unvan {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 10vh;
+  margin-left: 112vh;
+}
+.foother .unvan form {
+  margin-left: 10vh;
+}
+.foother .icons {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 5vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.ic-hover:hover {
+  color: darkorange !important;
+}
+
+.sec-one {
+  width: 100%;
+  height: 60vh;
+  background-color: bisque;
+  margin-top: 15vh;
+}
+.sec-one h1 {
+  color: blueviolet;
+  padding-top: 5vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+.sec-one p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.sec-one button {
+  width: 14%;
+  height: 7vh;
+  border: 0px solid blueviolet;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sec-one button:hover {
+  background-color: rgb(4, 85, 4);
+  color: rgb(237, 177, 64);
+}
+.sec-one .p {
+  width: 90%;
+  margin-top: 5vh;
+}
+.sec-one .p a {
+  color: rgb(31, 53, 179);
+  text-decoration: none;
+}
+
+.cols {
+  color: chartreuse !important;
+  background-color: blue !important;
+  border-color: blue;
+}
+.cols:hover {
+  background-color: rgb(56, 56, 172) !important;
+}
+
+.elaqe {
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(210, 206, 206);
+  margin-top: 9vh;
+}
+.elaqe h1 {
+  font-size: 2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-left: 10vh;
+  padding-top: 15vh;
+}
+.elaqe ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 15vh;
+  margin-left: 10vh;
+  margin-top: 10vh;
+  padding-top: 10vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  opacity: 0.9;
+}
+.elaqe ul a {
+  color: black;
+  text-decoration: none;
+}
+.elaqe .map {
+  margin-top: 10vh;
+  margin-left: 30vh;
+  width: 5vh;
+}
+
+.foother-elaqe {
+  width: 100%;
+  height: 120vh;
+  margin-top: 85vh;
+}
+.foother-elaqe h1 {
+  color: wheat;
+}
+.foother-elaqe ul {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 15vh;
+  margin-left: 40vh;
+  padding-top: 20vh;
+}
+.foother-elaqe .kontakt {
+  display: flex;
+  flex-direction: column;
+}
+.foother-elaqe .kontakt div {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+.foother-elaqe .melumat {
+  display: flex;
+  flex-direction: column;
+}
+.foother-elaqe .melumat div {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+.foother-elaqe h3 {
+  color: whitesmoke;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.4rem;
+  margin-top: 30vh;
+  margin-left: 60vh;
+}
+
+.forms {
+  width: 100%;
+  height: 90vh;
+  background-color: #b7b7ac;
+}
+
+.form {
+  width: 30%;
+  margin-left: 75vh;
+  margin-top: 10vh;
+  padding-top: 20vh;
+}
+
+.cl {
+  color: rgb(0, 132, 139);
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.margin-top {
+  margin-top: 9vh;
+}
